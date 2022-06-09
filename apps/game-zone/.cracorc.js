@@ -15,7 +15,7 @@ module.exports = () => ({
           name: "gamezone",
           filename: "gameZoneRemoteEntry.js",
           remotes: {
-            cardpicker: "cardpicker@http://localhost:3000/cardPickerRemoteEntry.js",
+            cardpicker: "cardpicker@https://super-app-card-picker.vercel.app/cardPickerRemoteEntry.js",
           },
           shared: {
             ...deps,
